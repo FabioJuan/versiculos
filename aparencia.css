@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 198, 74);
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h2{
+    color: white;
+    padding: 2%;
+    flex: 1;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    max-width: 500px;
+}
+.versos{
+    flex: 1;
+    min-height: 300px;
+    min-width: 30%;
+    background-color: rgb(194, 126, 0);
+    margin: 30px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    border-color: rgb(134, 65, 0);
+}
+.botoes{
+    display: flexbox;;
+    flex-direction: column;
+}
+.botao{
+    flex: 2;
+    height: 10%;
+    width: 30%;
+    color: white;
+    background-color:rgb(194, 126, 0);
+    border-radius: 25px;
+    border-color: rgb(134, 65, 0);
+    font-size: medium;
+    margin-left: 5%;margin-right: 5%;
+
+}
+#versiculos{
+    font-size: larger;
+    color:white;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 10%;
+}
