@@ -50,6 +50,7 @@ section{
 
 }
 #versiculos{
+    text-align: justify;
     font-size: larger;
     color:white;
     width: 80%;
